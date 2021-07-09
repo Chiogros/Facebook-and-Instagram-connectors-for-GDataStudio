@@ -1,0 +1,26 @@
+{
+  "exceptionLogging": "NONE",
+  "runtimeVersion": "V8",
+  "dependencies": {
+    "libraries": [
+      {
+        "userSymbol": "FacebookCore",
+        "version": "0",
+        "libraryId": "13iwi4l09wdwCsfkS18k8Kj4iSJ1Sk0t7mc0rjs5EgDIH_Pg2m0IZ-dLT",
+        "developmentMode": true
+      }
+    ]
+  },
+  "dataStudio": {
+    "name": "Facebook Page",
+    "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Facebook_Logo_%282019%29.png/1200px-Facebook_Logo_%282019%29.png",
+    "company": "Chiogros",
+    "companyUrl": "https://github.com/Chiogros",
+    "addonUrl": "https://github.com/Chiogros/Facebook-connectors-for-GDataStudio/Page",
+    "supportUrl": "https://github.com/Chiogros/Facebook-connectors-for-GDataStudio/issues",
+    "description": "Get Facebook Page data, for free.",
+    "sources": [
+      "facebook"
+    ]
+  }
+}
