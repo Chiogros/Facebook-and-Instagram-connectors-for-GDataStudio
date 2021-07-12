@@ -104,7 +104,7 @@ function getFields() {
   fields.newDimension()
     .setId('Facebook_Page_cover_offset_y')
     .setType(types.NUMBER);
-  
+
   fields.newDimension()
     .setId('Facebook_Page_cover_source')
     .setType(types.TEXT);
@@ -148,7 +148,7 @@ function getFields() {
   fields.newDimension()
     .setId('Facebook_Page_emails')
     .setType(types.TEXT);
-    
+
   fields.newDimension()
     .setId('Facebook_Page_engagement_count')
     .setType(types.NUMBER);
@@ -501,6 +501,34 @@ function getFields() {
     .setId('Facebook_Page_verification_status')
     .setType(types.TEXT);
   
+  fields.newDimension()
+    .setId('Facebook_Page_voip_info_has_permission')
+    .setType(types.BOOLEAN);
+  
+  fields.newDimension()
+    .setId('Facebook_Page_voip_info_has_mobile_app')
+    .setType(types.BOOLEAN);
+  
+  fields.newDimension()
+    .setId('Facebook_Page_voip_info_is_pushable')
+    .setType(types.BOOLEAN);
+  
+  fields.newDimension()
+    .setId('Facebook_Page_voip_info_is_callable')
+    .setType(types.BOOLEAN);
+  
+  fields.newDimension()
+    .setId('Facebook_Page_voip_info_is_callable_webrtc')
+    .setType(types.BOOLEAN);
+  
+  fields.newDimension()
+    .setId('Facebook_Page_voip_info_reason_code')
+    .setType(types.NUMBER);
+  
+  fields.newDimension()
+    .setId('Facebook_Page_voip_info_reason_description')
+    .setType(types.TEXT);
+
   fields.newDimension()
     .setId('Facebook_Page_website')
     .setType(types.TEXT);

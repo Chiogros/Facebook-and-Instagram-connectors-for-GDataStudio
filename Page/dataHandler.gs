@@ -380,6 +380,27 @@ function responseToRows(requestedFields, response) {
       case 'Facebook_Page_verification_status':
         rows.push(response.verification_status);  
         break;
+      case 'Facebook_Page_voip_info_has_permission':
+        rows.push(response.voip_info.has_permission);  
+        break;
+      case 'Facebook_Page_voip_info_has_mobile_app':
+        rows.push(response.voip_info.has_mobile_app);  
+        break;
+      case 'Facebook_Page_voip_info_is_pushable':
+        rows.push(response.voip_info.is_pushable);  
+        break;
+      case 'Facebook_Page_voip_info_is_callable':
+        rows.push(response.voip_info.is_callable);  
+        break;
+      case 'Facebook_Page_voip_info_is_callable_webrtc':
+        rows.push(response.voip_info.is_callable_webrtc);  
+        break;
+      case 'Facebook_Page_voip_info_reason_code':
+        rows.push(response.voip_info.reason_code);  
+        break;
+      case 'Facebook_Page_voip_info_reason_description':
+        rows.push(response.voip_info.reason_description);  
+        break;
       case 'Facebook_Page_website':
         rows.push(response.website);  
         break;
