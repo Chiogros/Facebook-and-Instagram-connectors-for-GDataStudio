@@ -98,6 +98,14 @@ function getFields() {
     .setType(types.TEXT);
   
   fields.newDimension()
+    .setId('Facebook_Page_cover_offset_x')
+    .setType(types.NUMBER);
+
+  fields.newDimension()
+    .setId('Facebook_Page_cover_offset_y')
+    .setType(types.NUMBER);s
+  
+  fields.newDimension()
     .setId('Facebook_Page_cover_source')
     .setType(types.TEXT);
   

@@ -77,6 +77,12 @@ function responseToRows(requestedFields, response) {
       case 'Facebook_Page_cover_id':
         rows.push(response.cover.id);  
         break;
+      case 'Facebook_Page_cover_offset_x':
+        rows.push(response.cover.offset_x);  
+        break;
+      case 'Facebook_Page_cover_offset_y':
+        rows.push(response.cover.offset_y);  
+        break;
       case 'Facebook_Page_cover_source':
         rows.push(response.cover.source);  
         break;
