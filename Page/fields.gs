@@ -103,7 +103,7 @@ function getFields() {
 
   fields.newDimension()
     .setId('Facebook_Page_cover_offset_y')
-    .setType(types.NUMBER);s
+    .setType(types.NUMBER);
   
   fields.newDimension()
     .setId('Facebook_Page_cover_source')
@@ -147,6 +147,14 @@ function getFields() {
   
   fields.newDimension()
     .setId('Facebook_Page_emails')
+    .setType(types.TEXT);
+    
+  fields.newDimension()
+    .setId('Facebook_Page_engagement_count')
+    .setType(types.NUMBER);
+
+  fields.newDimension()
+    .setId('Facebook_Page_engagement_social_sentence')
     .setType(types.TEXT);
   
   fields.newDimension()

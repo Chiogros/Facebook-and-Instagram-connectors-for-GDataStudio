@@ -116,6 +116,12 @@ function responseToRows(requestedFields, response) {
       case 'Facebook_Page_emails':
         rows.push(response.emails);  
         break;
+      case 'Facebook_Page_engagement_count':
+        rows.push(response.engagement.count);  
+        break;
+      case 'Facebook_Page_engagement.social_sentence':
+        rows.push(response.engagement.social_sentence);  
+        break;
       case 'Facebook_Page_fan_count':
         rows.push(response.fan_count);  
         break;
