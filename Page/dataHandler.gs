@@ -224,6 +224,24 @@ function responseToRows(requestedFields, response) {
       case 'Facebook_Page_link':
         rows.push(response.link);  
         break;
+      case 'Facebook_Page_location_city':
+        rows.push(response.location.city);  
+        break;
+      case 'Facebook_Page_location_country':
+        rows.push(response.location.country);  
+        break;
+      case 'Facebook_Page_location_latitude':
+        rows.push(response.location.latitude);  
+        break;
+      case 'Facebook_Page_location_longitude':
+        rows.push(response.location.longitude);  
+        break;
+      case 'Facebook_Page_location_street':
+        rows.push(response.location.street);  
+        break;
+      case 'Facebook_Page_location_zip':
+        rows.push(response.location.zip);  
+        break;
       case 'Facebook_Page_members':
         rows.push(response.members);  
         break;

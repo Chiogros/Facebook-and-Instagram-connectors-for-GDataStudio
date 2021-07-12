@@ -292,6 +292,30 @@ function getFields() {
   fields.newDimension()
     .setId('Facebook_Page_link')
     .setType(types.TEXT);
+    
+  fields.newDimension()
+    .setId('Facebook_Page_location_city')
+    .setType(types.TEXT);
+  
+  fields.newDimension()
+    .setId('Facebook_Page_location_country')
+    .setType(types.TEXT);
+  
+  fields.newDimension()
+    .setId('Facebook_Page_location_latitude')
+    .setType(types.NUMBER);
+  
+  fields.newDimension()
+    .setId('Facebook_Page_location_longitude')
+    .setType(types.NUMBER);
+  
+  fields.newDimension()
+    .setId('Facebook_Page_location_street')
+    .setType(types.TEXT);
+  
+  fields.newDimension()
+    .setId('Facebook_Page_location_zip')
+    .setType(types.NUMBER);
   
   fields.newDimension()
     .setId('Facebook_Page_members')
