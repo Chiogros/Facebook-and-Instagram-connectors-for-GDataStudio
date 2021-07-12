@@ -41,11 +41,12 @@ function getConfig() {
 function connect(fields, request) {
 
   var httpResponses = new Array();
-  var numberOfFieldsToRetrieve = 10;
+  var numberOfFieldsToRetrieve = 50;
+  
   // iterate over fields to retrieve because GDS has a limit URL size
   for (var i = 0 ; i < fields.length ; i += numberOfFieldsToRetrieve) {
 
-    var url = 'https://graph.facebook.com/v11.0/' + request.configParams.object_ID + '?fields=' + fields.slice(i, i + 10) + '&access_token=' + request.configParams.bearer_token;
+    var url = 'https://graph.facebook.com/v11.0/' + request.configParams.object_ID + '?fields=' + fields.slice(i, i + numberOfFieldsToRetrieve) + '&access_token=' + request.configParams.bearer_token;
 
     // Fetch data
     var httpResponse = UrlFetchApp.fetch(url);
