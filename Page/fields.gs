@@ -452,6 +452,10 @@ function getFields() {
   fields.newDimension()
     .setId('Facebook_Page_starring')
     .setType(types.TEXT);
+    
+  fields.newDimension()
+    .setId('Facebook_Page_start_info_type')
+    .setType(types.TEXT);
   
   fields.newDimension()
     .setId('Facebook_Page_store_code')

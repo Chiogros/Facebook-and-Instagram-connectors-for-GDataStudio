@@ -344,6 +344,9 @@ function responseToRows(requestedFields, response) {
       case 'Facebook_Page_starring':
         rows.push(response.starring);  
         break;
+      case 'Facebook_Page_start_info_type':
+        rows.push(response.start_info.type);  
+        break;
       case 'Facebook_Page_store_code':
         rows.push(response.store_code);  
         break;
