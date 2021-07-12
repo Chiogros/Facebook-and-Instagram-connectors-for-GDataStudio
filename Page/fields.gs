@@ -94,7 +94,11 @@ function getFields() {
     .setType(types.NUMBER);
   
   fields.newDimension()
-    .setId('Facebook_Page_cover')
+    .setId('Facebook_Page_cover_id')
+    .setType(types.TEXT);
+  
+  fields.newDimension()
+    .setId('Facebook_Page_cover_source')
     .setType(types.TEXT);
   
   fields.newDimension()

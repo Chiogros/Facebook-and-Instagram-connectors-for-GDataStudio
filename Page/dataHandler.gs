@@ -74,8 +74,11 @@ function responseToRows(requestedFields, response) {
       case 'Facebook_Page_country_page_likes':
         rows.push(response.country_page_likes);  
         break;
-      case 'Facebook_Page_cover':
-        rows.push(response.cover);  
+      case 'Facebook_Page_cover_id':
+        rows.push(response.cover.id);  
+        break;
+      case 'Facebook_Page_cover_source':
+        rows.push(response.cover.source);  
         break;
       case 'Facebook_Page_culinary_team':
         rows.push(response.culinary_team);  
