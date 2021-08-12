@@ -16,7 +16,7 @@
     "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Facebook_Logo_%282019%29.png/1200px-Facebook_Logo_%282019%29.png",
     "company": "Chiogros",
     "companyUrl": "https://github.com/Chiogros",
-    "addonUrl": "https://github.com/Chiogros/Facebook-connectors-for-GDataStudio/Page",
+    "addonUrl": "https://github.com/Chiogros/Facebook-connectors-for-GDataStudio/tree/main/Page",
     "supportUrl": "https://github.com/Chiogros/Facebook-connectors-for-GDataStudio/issues",
     "description": "Get Facebook Page data, for free.",
     "sources": [
