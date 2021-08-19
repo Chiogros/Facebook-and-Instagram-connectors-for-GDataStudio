@@ -16,8 +16,8 @@
     "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/1200px-Instagram_logo_2016.svg.png",
     "company": "Chiogros",
     "companyUrl": "https://github.com/Chiogros",
-    "addonUrl": "https://github.com/Chiogros/Facebook-connectors-for-GDataStudio/tree/main/Page",
-    "supportUrl": "https://github.com/Chiogros/Facebook-connectors-for-GDataStudio/issues",
+    "addonUrl": "https://github.com/Chiogros/Facebook-and-Instagram-connectors-for-GDataStudio/tree/main/Instagram/Counts",
+    "supportUrl": "https://github.com/Chiogros/Facebook-and-Instagram-connectors-for-GDataStudio/issues",
     "description": "Get Instagram counts, for free.",
     "sources": [
       "instagram"
