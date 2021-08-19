@@ -1,7 +1,7 @@
-# Facebook-connectors-for-GDataStudio
+# Facebook and Instagram connecotrs for GDataStudio
 
 Building...
-If you are interested by using this connector, send me an email and I'll notify you when it's production ready.
+If you are interested by using thoses connector, send me an email and I'll notify you when it's production ready.
 
 Documentation not available yet.
 
