@@ -40,7 +40,11 @@ Child connectors (Page, Counts, ...) use Core functions and have functions speci
 2. On your developer portal, create an app
 3. Take note about app ID and secret key shown in app settings
 4. Go to [Graph API Explorer](https://developers.facebook.com/tools/explorer)
-5. 
+5. Add right permissions for your token (you can find which ones are required in `permissions` file in each connector folder)
+6. Generate it
+7. Go [here](https://graph.facebook.com/v11.0/oauth/access_token?grant_type=fb_exchange_token&client_id=CLIENT_ID&client_secret=CLIENT_SECRET&fb_exchange_token=TOKEN) by changing `CLIENT_ID`, `CLIENT_SECRET` and `TOKEN` with yours.
+8. Fetch the new token, available for 60 days
+9. Use this one to fill connectors credentials
 
 ## How to create a new Facebook or Instagram connector
 First, copy Page or Counts connector.
