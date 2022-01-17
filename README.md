@@ -2,8 +2,8 @@
 Google Data Studio connectors to fetch data from Graph API.
 
 ## Connectors organization
-There's a main connector called "Core" that's common for both Facebook and Instagram (since both use Graph API): it retrieve and handle data to bring it properly for GDS and set authentication method.
-Child connectors (Page, Counts, ...) use Core functions and have functions specific for their API endpoint.
+There's a main connector called "Core" that's common for both Facebook and Instagram (since both use Graph API): it retrieves data, transforms data for GDS and set authentication method.
+Children connectors (Page, Counts, ...) use Core functions and specific functions for their API endpoint.
 
 ## How to use them on GDS
 
@@ -40,7 +40,7 @@ Child connectors (Page, Counts, ...) use Core functions and have functions speci
 2. On your developer portal, create an app
 3. Take note about app ID and secret key shown in app settings
 4. Go to [Graph API Explorer](https://developers.facebook.com/tools/explorer)
-5. Add right permissions for your token (you can find which ones are required in `permissions` file in each connector folder)
+5. Add right permissions for your token (you can find which ones are required in `permissions` file in connector's folder)
 6. Generate it
 7. Go [here](https://graph.facebook.com/v11.0/oauth/access_token?grant_type=fb_exchange_token&client_id=CLIENT_ID&client_secret=CLIENT_SECRET&fb_exchange_token=TOKEN) by changing `CLIENT_ID`, `CLIENT_SECRET` and `TOKEN` with yours.
 8. Fetch the new token, available for 60 days
