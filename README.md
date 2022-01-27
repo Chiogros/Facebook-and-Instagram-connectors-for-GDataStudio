@@ -49,7 +49,7 @@ Children connectors (Page, Counts, ...) use Core functions and use specific func
 ## How to create a new Facebook or Instagram connector
 First, copy Page or Counts connector.
 
-Link to [Instagram API documentation](https://developers.facebook.com/docs/instagram-api/) and to [Facebook global documentation](https://developers.facebook.com/docs), where you can find information for steps below.
+Link to the [Graph API documentation](https://developers.facebook.com/docs/graph-api), where you can find information for steps below.
 
 Then you have 3 things to change :
 1. Change `fields` array that contains all fields to retrieve from API (stick with thoses in steps below)
