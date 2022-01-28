@@ -32,19 +32,35 @@ Children connectors (Page, Counts, ...) use Core functions and use specific func
 1. Go to [Google Data Studio](https://datastudio.google.com)
 2. Create > Data source
 3. Search for your deployed child connector
-4. Fill credentials
+4. Fill with [credentials](#credentials)
 5. Now you can import it in your GDS reports
 
-## Get access token
+
+## Credentials
+
+### Get access token
 1. Create a Facebook developer account
 2. On your developer portal, create an app
 3. Take note about app ID and secret key shown in app settings
 4. Go to [Graph API Explorer](https://developers.facebook.com/tools/explorer)
-5. Add right permissions for your token (you can find which ones are required in `permissions` file in connector's folder)
-6. Generate the token
-7. Go [here](https://graph.facebook.com/v11.0/oauth/access_token?grant_type=fb_exchange_token&client_id=CLIENT_ID&client_secret=CLIENT_SECRET&fb_exchange_token=TOKEN) by changing `CLIENT_ID`, `CLIENT_SECRET` and `TOKEN` with yours.
-8. Fetch the new token, available for 60 days
-9. Use this one to fill connector credentials
+5. `User or Page` dropdown menu: `Get a user access token`
+6. Add right permissions for your token (you can find which ones are required in `permissions` file in connector's folder)
+7. Generate the token
+8. Go [there](https://graph.facebook.com/v12.0/oauth/access_token?grant_type=fb_exchange_token&client_id=CLIENT_ID&client_secret=CLIENT_SECRET&fb_exchange_token=TOKEN) by changing `CLIENT_ID`, `CLIENT_SECRET` and `TOKEN` with yours.
+9. Fetch the new token, available for 60 days
+10. Use the latter one
+
+### Get object ID
+
+#### Facebook
+1. Go to the Facebook page you want to track
+2. In the page's navbar: `More` > `Page ID`
+
+#### Instagram
+1. Go to your account profile
+2. Append `?__a=1` to the URL
+3. Search for `profilePage_`: your account ID is the following number.
+
 
 ## How to create a new Facebook or Instagram connector
 First, copy Page or Counts connector.
@@ -106,8 +122,6 @@ function responseToRows(requestedFields, response) {
   });
 }
 ```
-
-
 
 ## If needed
 Send me an email at alexandre.bouijoux@gmail.com :)
