@@ -2,7 +2,7 @@ function setConfig(config) {
   
   config.newInfo()
     .setId('instructions')
-    .setText('Some prerequires are needed to retrieve data. See instructions : https://github.com/Chiogros/Facebook-connectors-for-GDataStudio');
+    .setText('Some prerequires are needed to retrieve data. See instructions : https://github.com/Chiogros/Facebook-and-Instagram-connectors-for-GDataStudio');
   
   config.newTextInput()
     .setId('bearer_token')
