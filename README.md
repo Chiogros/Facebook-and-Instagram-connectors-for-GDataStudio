@@ -5,6 +5,8 @@ Google Data Studio connectors to fetch data from Graph API.
 There is a main connector called `Core` that is common for both Facebook and Instagram (since both use Graph API): it retrieves data, transforms data for GDS and also it sets the authentication method.
 Children connectors (Page, Counts, ...) use Core functions and use specific functions they have for their API endpoint.
 
+![Connectors schema](schema.png)
+
 ## How to use them on GDS
 
 ### Setup Core connector
